@@ -14,7 +14,7 @@ st.set_page_config(
 
 # Title
 st.title("📊 Customer Churn Prediction App")
-st.markdown("*Farhan Ansari | M.Tech Data Analytics | IIT (ISM) Dhanbad*")
+st.markdown("Ashmita Chaudhary | B.Tech | IIT (ISM) Dhanbad*")
 st.markdown("---")
 
 # Sidebar
@@ -24,9 +24,7 @@ with st.sidebar:
     st.write("**Accuracy:** 91%+")
     st.write("**ROC-AUC:** 0.96")
     st.write("**Top Driver:** MonthlyCharges (SHAP=1.43)")
-    st.markdown("---")
-    st.markdown("📧 farhan.mas101@gmail.com")
-    st.markdown("[LinkedIn](https://linkedin.com/in/farhanansari-iitdhanbad)")
+    
 
 # Load data and model
 @st.cache_data
